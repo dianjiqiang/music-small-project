@@ -1,0 +1,5 @@
+<!--components/keyie-video-message-item-v1/index.wxml-->
+<wxs src="../../utils/format.wxs" module="format"></wxs>
+<view class="title">{{mvDetail.name}}</view>
+<view class="author">{{mvDetail.artistName}}</view>
+<view class="little-message">{{format.formatCount(mvDetail.playCount)}}播放次数 - {{mvDetail.publishTime}}</view>

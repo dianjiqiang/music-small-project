@@ -1,0 +1,13 @@
+/* pages/detail-video/index.wxss */
+page{
+  padding-top: 225px;
+}
+.video{
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+.recommend{
+  margin-top: 30px;
+  margin-left: 10px;
+}

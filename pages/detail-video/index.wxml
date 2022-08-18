@@ -1,0 +1,9 @@
+<!--pages/detail-video/index.wxml-->
+<video class="video" src="{{mvUrlInfo.url}}" autoplay></video>
+<view>
+  <keyie-video-message-item-v1 mvDetail="{{mvDetail}}"/>
+</view>
+<view class="recommend">推荐视频</view>
+<view wx:for="{{relatedVideos}}" wx:key="vid">
+  <keyie-video-related-item-v1 relatedVideo="{{item}}" capture-bind:tap="handleVideoItemClick" data-item="{{item}}"/>
+</view>

@@ -1,0 +1,8 @@
+<!--components/keyie-video-related-item-v1/index.wxml-->
+<view class="video">
+  <image class="img" src="{{relatedVideo.coverUrl}}"></image>
+  <view class="message">
+    <view class="title">{{relatedVideo.title}}</view>
+    <view class="creator">{{relatedVideo.creator[0].userName}}</view>
+  </view>
+</view>

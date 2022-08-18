@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "keyie-video-message-item-v1": "../../components/keyie-video-message-item-v1/index",
+    "keyie-video-related-item-v1": "../../components/keyie-video-related-item-v1/index"
+  }
+}

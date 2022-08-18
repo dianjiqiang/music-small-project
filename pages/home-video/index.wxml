@@ -1,0 +1,7 @@
+<!--pages/home-video/index.wxml-->
+<wxs src="../../utils/format.wxs" module="format" />
+<view class="video" hover-class="none" hover-stop-propagation="false">
+  <view wx:for="{{topMVs}}" wx:key="id" class="item">
+    <Keyie-item-v1 item="{{item}}" capture-bind:tap="handleVideoItemClick" data-item="{{item}}"/>
+  </view>
+</view>
